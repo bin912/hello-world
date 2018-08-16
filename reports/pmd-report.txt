@@ -1,0 +1,215 @@
+src/main/java/kr/or/connect/guestbook/config/ApplicationConfig.java:10:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/config/ApplicationConfig.java:10:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:15:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:15:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:16:	Private field 'driverClassName' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:16:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:18:	Private field 'url' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:18:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:20:	Private field 'username' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:20:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:22:	Private field 'password' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:22:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:25:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:26:	Local variable 'dataSource' could be declared final
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:35:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/DBConfig.java:40:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:16:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:16:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:20:	Parameter 'registry' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:20:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:28:	Parameter 'configurer' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:28:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:36:	Parameter 'registry' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:36:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:37:	System.out.println is used
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:42:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/config/WebMvcContextConfiguration.java:43:	Local variable 'resolver' could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:20:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:20:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:21:	Use explicit scoping instead of the default package private level
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:22:	To avoid mistakes add a comment at the beginning of the guestbookService field if you want a default access modifier
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:22:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:25:	Parameter 'start' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:25:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:26:	Parameter 'model' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:29:	Local variable 'list' could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:32:	Local variable 'count' could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:33:	Found 'DD'-anomaly for variable 'pageCount' (lines '33'-'35').
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:34:	Avoid using if statements without curly braces
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:41:	Local variable 'pageStartList' could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:54:	Parameter 'guestbook' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:54:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:55:	Parameter 'request' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:56:	Local variable 'clientIp' could be declared final
+src/main/java/kr/or/connect/guestbook/controller/GuestbookController.java:57:	System.out.println is used
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:23:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:24:	Private field 'jdbc' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:24:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:28:	Private field 'insertAction' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:28:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:31:	Private field 'rowMapper' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:31:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:34:	Parameter 'dataSource' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:34:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:41:	Parameter 'limit' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:41:	Parameter 'start' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:41:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:42:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:42:	Local variable 'params' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:46:	Comment is too large: Line too long
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:49:	Parameter 'guestbook' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:49:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:50:	Local variable 'params' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:56:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:56:	Parameter 'id' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:56:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:57:	Local variable 'params' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDao.java:64:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoSqls.java:3:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoSqls.java:3:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoSqls.java:4:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoSqls.java:5:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoSqls.java:6:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:11:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:13:	Parameter 'args' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:13:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:14:	Avoid variables with short names like ac
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:14:	Local variable 'ac' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:24:	Local variable 'logDao' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:25:	Local variable 'log' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:26:	Do not hard code the IP address 
+src/main/java/kr/or/connect/guestbook/dao/GuestbookDaoTest.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:14:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:15:	Avoid unused private fields such as 'jdbc'.
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:15:	Perhaps 'jdbc' could be replaced by a local variable.
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:15:	Private field 'jdbc' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:15:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:17:	Comment is too large: Line too long
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:18:	Private field 'insertAction' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:18:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:22:	Parameter 'dataSource' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:22:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:29:	Parameter 'log' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:29:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:30:	Local variable 'params' could be declared final
+src/main/java/kr/or/connect/guestbook/dao/LogDao.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:5:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:5:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:6:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:6:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:7:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:8:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:9:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:10:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:13:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:13:	Parameter 'id' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:13:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:16:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:19:	Parameter 'name' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:19:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:22:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:25:	Parameter 'content' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:25:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:28:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:31:	Parameter 'regdate' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:31:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Guestbook.java:35:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:5:	Avoid short class names like Log
+src/main/java/kr/or/connect/guestbook/dto/Log.java:5:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/dto/Log.java:5:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:6:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/dto/Log.java:6:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:7:	Avoid variables with short names like ip
+src/main/java/kr/or/connect/guestbook/dto/Log.java:7:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:8:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:9:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:10:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:13:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/dto/Log.java:13:	Parameter 'id' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Log.java:13:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:16:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:19:	Avoid variables with short names like ip
+src/main/java/kr/or/connect/guestbook/dto/Log.java:19:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Log.java:19:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:22:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:25:	Parameter 'method' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Log.java:25:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:28:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:31:	Parameter 'regdate' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/dto/Log.java:31:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/dto/Log.java:35:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:7:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:8:	Avoid modifiers which are implied by the context
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:8:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:9:	Avoid modifiers which are implied by the context
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:9:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:10:	Avoid modifiers which are implied by the context
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:10:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:10:	Avoid variables with short names like ip
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:10:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:11:	Avoid modifiers which are implied by the context
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:11:	Avoid variables with short names like ip
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:11:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:12:	Avoid modifiers which are implied by the context
+src/main/java/kr/or/connect/guestbook/service/GuestbookService.java:12:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:17:	Each class should declare at least one constructor
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:17:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:19:	Use explicit scoping instead of the default package private level
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:20:	To avoid mistakes add a comment at the beginning of the guestbookDao field if you want a default access modifier
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:20:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:23:	To avoid mistakes add a comment at the beginning of the logDao field if you want a default access modifier
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:23:	fieldCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:27:	Parameter 'start' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:27:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:28:	Local variable 'list' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:30:	Consider simply returning the value vs storing it in local variable 'list'
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:35:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:35:	Avoid variables with short names like ip
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:35:	Parameter 'id' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:35:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:35:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:37:	Local variable 'deleteCount' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:40:	Local variable 'log' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:51:	Avoid variables with short names like ip
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:51:	Parameter 'guestbook' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:51:	Parameter 'ip' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:51:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:54:	Avoid variables with short names like id
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:54:	Local variable 'id' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:59:	Local variable 'log' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceImpl.java:71:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:12:	headerCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:14:	Parameter 'args' is not assigned and could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:14:	publicMethodCommentRequirement Required
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:15:	Avoid variables with short names like ac
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:15:	Local variable 'ac' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:16:	Local variable 'guestbookService' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:18:	Local variable 'guestbook' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:22:	Do not hard code the IP address 
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:22:	Local variable 'result' could be declared final
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/kr/or/connect/guestbook/service/impl/GuestbookServiceTest.java:23:	System.out.println is used

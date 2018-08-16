@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+         <!-- 웹 모듈 3.1버전으로 수정. -->
+
+	<display-name>Spring JavaConfig Sample</display-name>
+	<context-param>
+		<param-name>contextClass</param-name>
+		<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+		</param-value>
+	</context-param>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<!-- 아래 ApplicationConfig이름과 같아야 불러올 수 있다. -->
+		<param-value>kr.or.connect.guestbook.config.ApplicationConfig</param-value>
+	</context-param>
+	<!-- ContextLoaderListener사용. Context가 로딩될때 불려짐.
+		 위 context-param에 등록된 값들을 참조함.-->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+
+	<servlet><!--Dispatcher servlet이 프론트 서블릿으로 모든 요청을 받음. -->
+		<servlet-name>mvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<init-param>
+			<param-name>contextClass</param-name><!-- Annotation어플리케이션 사용할 것임. -->
+			<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+			</param-value>
+		</init-param>
+		<init-param>
+			<param-name>contextConfigLocation</param-name><!--WebMvcContextConfiguration의 설정을 참고함.  -->
+			<param-value>kr.or.connect.guestbook.config.WebMvcContextConfiguration
+			</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping><!--모든 요청을 mvc라는 이름을 갖는 서블릿이 처리한다. -->
+		<servlet-name>mvc</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<filter><!-- 문자 인코딩 UTF-8 -->
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter
+		</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern><!-- 전체 URL에 지정. -->
+	</filter-mapping>
+</web-app>
